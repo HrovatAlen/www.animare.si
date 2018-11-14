@@ -41,6 +41,13 @@ html,body {
 	height: 30px;
 	width: 950px;
 }
+#Navigacija ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	}
 #Vsebina {
 	background-color: green;
 	min-height: 350px;
